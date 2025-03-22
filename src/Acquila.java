@@ -1,4 +1,4 @@
-public class Acquila extends Animale {
+public class Acquila extends Animale implements IVolante {
 
     @Override
     public void verso() {
@@ -10,4 +10,8 @@ public class Acquila extends Animale {
         System.out.println("Carne");
     }
 
+    @Override
+    public void vola() {
+        System.out.println("Sto volando!!!");
+    }
 }
